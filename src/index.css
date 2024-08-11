@@ -1,0 +1,102 @@
+body{
+  display: flex;
+  font-family: "Inter", sans-serif;
+  
+}
+.main-content{
+  display: inline-flex;
+  width: 600px;
+  height: 1150px;
+  border: 5px solid black;
+  flex-direction: column;
+  align-items: center;
+  background-color: #23252C;
+  margin-left: 700px;
+}
+img{
+  margin-top: 20px;
+  width:500px;
+  height: 500px;
+  
+}
+.name-content{
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 100px;
+  padding-right: 100px;
+  width: 300px;
+  height: 150px;
+}
+.name-content h1{
+  margin-bottom: 0px;
+  font-optical-sizing: 700;
+}
+.name-content h4{
+  margin-top: 5px;
+  font-optical-sizing: 400;
+  color: #F3BF99;
+}
+.body-container{
+  background-color: #1A1B21;
+  color: #F5F5F5;
+  width: 500px;
+  
+  
+}
+.body-content{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+footer{
+  background-color: #161619;
+  width: 400px;
+  color:#F5F5F5;
+}
+.body-content h1{
+  font-optical-sizing: 700;
+}
+.body-content p{
+  font-optical-sizing: 400;
+}
+button{
+  width: 115px;
+  height: 34px;
+  margin: 4px;
+  border-radius: 6px;
+
+}
+.btn1{
+  background-color: #FFFFFF;
+  color: black;
+  font-weight: 500;
+  margin-left: 10px;
+}
+.btn2{
+ background-color: #5093E2;
+ color: white;
+ font-weight: 500;
+ margin-right: 10px;
+}
+.btn1 span.icon {
+  background: url(src/Images/email.png) no-repeat;
+  float: left;
+  width: 16px;
+  height: 16px;
+}
+.btn2 span.icon {
+  background: url(src/Images/linkedin.png) no-repeat;
+  float: left;
+  width: 16px;
+  height: 16px;
+}
+footer{
+  width:500px;
+  height: 100px;
+  align-items: center;
+  
+}
+footer p{
+  margin-left: 150px;
+width: 225px;
+}
